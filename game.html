@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/Rock-paper-scissors.png" type="image/x-icon">
+  <link rel="icon" href="img/Rock-paper-scissors.png" type="image/x-icon">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Play game</title>
+</head>
+
+<body>
+
+  <div class="game-header">
+    The classical game of Rock Paper Scissor
+</div>
+  <div class="end-game-screen">
+
+    <div class="info">
+      <h1>Game Over</h1>
+
+      <h2></h2>
+
+      <button class="play-new-game">New game</button>
+     
+    </div>
+  </div>
+  <section id="home-page">
+    <div class="container home">
+      <h1 class="game-title">Rock, Paper and Scissor</h1>
+      
+      <div class="flex-box gameInfo">
+        <h1 class="numberOfRounds"> </h1>
+        <h1 class="numberOfGamesLeft"></h1>
+      </div>
+      <div class="verses">
+
+        <h1 class="round">Round: 1</h1>
+        <div class="flex-row">
+
+          <div class="player1 competitors">
+            <h2 class="player1-label playerLabel">
+              </h3>
+              <img src="" alt="" srcset="" class="player1-img">
+            
+              <h2 class="player1-score score">Score: 0</h2>
+          </div>
+          <div>
+            <h1>VS</h1>
+          </div>
+          <div class="player2 competitors">
+            <h2 class="player2-label playerLabel">
+              </h3>
+              <img src="" alt="" srcset="" class="player2-img">
+              <h2 class="player2-score score">Score: 0</h2>
+          </div>
+        </div>
+
+        <div class="flex-row">
+
+          <div class="player1-choice player-choices">
+            
+          </div>
+
+
+          <div class="player2-choice player-choices">
+          
+
+          </div>
+
+  
+
+          <div class="result">
+             
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="view-rules">
+        <div class="container">
+          <h1>Rules</h1>
+
+          <div class="key">
+            <p>R: Rock</p>
+            <p>S: Scissor</p>
+            <p>P: Paper</p>
+          </div>
+          
+          <div class="rules">
+             <li>Rock smashes Scissors</li>
+             <li>Scissors cuts Paper</li>
+             <li>Paper wraps Rock</li>
+          </div>
+          
+      
+          <div class="how-to-play">
+            <p>
+              In the game, players will enter their choices as "R" for Rock, "S" for Scissors, or "P" for Paper. The choices will be compared based on these rules to determine the winner.
+    
+            </p>
+          </div>
+       
+      
+          <button class="close-rules-button">Close</button>
+        </div>
+      </div>
+      <div class="flex-box userInputFields">
+        <h1 class="user-turn"></h1>
+
+        <label for="player1" class="flex-box-player1-label">Player 1</label>
+        <input type="text" name="player1" id="player1" minlength="1" maxlength="1" required value="">
+
+        <label for="player2" id="Player2" class="player2 flex-box-player2-label">Player 2</label>
+        <input type="text" name="player2" id="player2" class="player2" minlength="1" maxlength="1" required value="">
+
+       
+        <a href="#" id="button-rules">Click here to view rules</a>
+      </div>
+
+     
+    </div>
+
+  </section>
+
+  <footer class="avatar-footer">
+    <div class="footer-content">
+      <p>&copy; Rock Paper Scissor | <span id="current-year"></span></p>
+    </div>
+  </footer>
+  <script type="module" src="js/menu.js"></script>
+  <script type="module" src="js/newGame.js"></script>
+</body>

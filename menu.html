@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/Rock-paper-scissors.png" type="image/x-icon">
+
+    <title>Document</title>
+</head>
+<body>
+
+
+      
+  <div class="game-header">
+    The classical game of Rock Paper Scissor
+</div>
+    <section id="menu">     
+
+       <div class="container">
+            <h1 class="menu-h1">Rock Paper Scissor </h1>
+         
+            <div class="menu">
+                <h3>Select your game</h3>
+
+                    <select id="gameMode">
+                        <option value="computerVShuman" selected>Computer vs human</option>
+                        <option value="humanVshuman">Human vs Human</option>
+                      </select>
+                      
+                      <h3 class="select-number-of-games-h1">Select number of games</h3>
+                      <select id="numberOfGames">
+                        <option value="3" selected>3</option>
+                        <option value="5">5</option>
+                        <option value="7">7</option>
+                        <option value="9">9</option>
+                        <option value="11">11</option>
+                        <option value="13">13</option>
+                       
+                      </select>
+    
+                   
+                      <button class="continueBtn">Continue</button>
+               
+                  
+            </div>
+           
+
+
+       </div>
+
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; Rock Paper Scissor | <span id="current-year"></span></p>
+      </div>
+    </footer>
+
+   <script type="module" src="js/menu.js"></script>
+</body>
+</html>
