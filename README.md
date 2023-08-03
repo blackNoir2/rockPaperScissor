@@ -46,6 +46,9 @@ This project is licensed under the [MIT License](LICENSE).
 - The game idea is inspired by the classic Rock Paper Scissors game.
 
 
+You can play the game at https://starlit-druid-c20ade.netlify.app/
+
+
 
 
 
