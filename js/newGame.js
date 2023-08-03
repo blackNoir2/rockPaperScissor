@@ -500,9 +500,9 @@ class Game {
   finishGame() {
 
     this.isRunning = false;
-    HandleUI.showWinner(this.winner);
     HandleUI.showEndGameDisplay();
     this._getWinner();
+    HandleUI.showWinner(this.winner);
    
   }
 
