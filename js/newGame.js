@@ -503,6 +503,7 @@ class Game {
     HandleUI.showEndGameDisplay();
     this._getWinner();
     HandleUI.showWinner(this.winner);
+    localStorage.clear()
    
   }
 
