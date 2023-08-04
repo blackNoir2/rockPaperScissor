@@ -33,9 +33,6 @@ This is a simple implementation of the classic Rock Paper Scissors game in JavaS
 - CSS
 - JavaScript
 
-## Contributing
-
-Contributions are welcome! If you find any issues or want to add new features, feel free to create a pull request.
 
 ## License
 
